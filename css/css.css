@@ -1,0 +1,134 @@
+*{
+    font-family: 微软雅黑;
+}
+/*li{*/
+    /*text-align: center;*/
+/*}*/
+a{
+    color: black;
+}
+a:hover, a.active{
+    text-decoration: none;
+    color: red;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+.navbar-brand{
+    padding: 0px;
+}
+.logo{
+    height: 100%;
+    width: auto;
+}
+.navbar-nav{
+    float: right;
+}
+.navbar-default .navbar-nav > li > a:hover,
+/*.navbar-default .navbar-nav > li > a:focus,*/
+.navbar-default .navbar-nav > .open > a,
+/*.navbar-default .navbar-nav > .open > a:hover,*/
+.navbar-default .navbar-nav > .open > a:focus
+{
+    color: red;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:focus{
+    color: #777;
+}
+.m_nav li a.active{
+    color: red;
+}
+#box{
+     margin-top: 80px;
+  }
+
+#box2{
+    /*height: 200px;*/
+}
+.news .title{
+     margin-top: 20px;
+    margin-bottom: 20px;
+ }
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#box2>.carousel-indicators{
+    left: 85%;
+    bottom: 0px;
+    margin-left: 0px;
+    width: auto;
+}
+#box2 .carousel-indicators li{
+    background: #ccc;
+    border: none;
+}
+#box2 .carousel-indicators li.active{
+    background-color: red;
+    border: none;
+}
+.col-md-6,.col-md-12{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.title{
+    margin-bottom: 20px;
+}
+.good_item{
+    overflow: hidden;
+}
+.good_item img{
+    cursor: pointer;
+    transition: all 1s;
+}
+.good_item img:hover{
+    transform: scale(1.2);
+}
+.good_desc{
+    text-align: center;
+    white-space: nowrap;
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+.good_desc h1{
+    /*font-weight: bold;*/
+    color: #e23d0e;
+    margin-bottom: 16px;
+}
+
+.good_desc h2{
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.good_desc p{
+    font-size: 1.1em;
+    color: #3e3e3e;
+}
+.copyright{
+    width: 100%;
+    height: auto;
+    white-space: nowrap;
+    text-align: center;
+}
+.main_content{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+.main_content .content{
+    width: 80%;
+    height: 1141px;
+    margin: 0px auto;
+}
+.good{
+    margin-top: 20px;
+}
+.goods_item{
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+.news_main{
+    margin-top: 100px;
+}
